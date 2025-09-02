@@ -1,0 +1,108 @@
+ body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #eee;
+    }
+
+    .id-card {
+      width: 280px;
+      height: 420px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      overflow: hidden;
+      background: #fff;
+    }
+
+    /* Top Header */
+    .header {
+      background: #f3c432;
+      padding: 8px;
+      text-align: center;
+    }
+    .header h2 {
+      margin: 0;
+      font-size: 14px;
+    }
+    .header p {
+      font-size: 10px;
+      margin: 0;
+    }
+
+    /* Photo */
+    .photo {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .photo img {
+      width: 90px;
+      height: 110px;
+      border: 2px solid #333;
+    }
+
+    /* Details */
+    .details {
+      font-size: 13px;
+      padding: 0 15px;
+      line-height: 1.5;
+    }
+    .details span {
+      font-weight: bold;
+    }
+
+    /* Barcode */
+    .barcode {
+      text-align: center;
+      margin: 10px 0;
+    }
+    .barcode div {
+      width: 150px;
+      height: 30px;
+      background: repeating-linear-gradient(
+        to right,
+        black 0px,
+        black 2px,
+        white 2px,
+        white 4px
+      );
+      margin: auto;
+    }
+
+    /* Footer */
+    .footer {
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 20px;
+      font-size: 10px;
+    }
+
+    /* Back side */
+    .id-card-back {
+      width: 280px;
+      height: 420px;
+      border: 2px solid #333;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      overflow: hidden;
+      background: #fff;
+      margin-left: 20px;
+    }
+    .back-details {
+      font-size: 13px;
+      padding: 15px;
+      line-height: 1.6;
+    }
+    .return-info {
+      background: #f3c432;
+      padding: 10px;
+      text-align: center;
+      font-size: 11px;
+    }
+    
+    
